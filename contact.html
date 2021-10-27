@@ -1,0 +1,369 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets\resources\img\all_logo\mti_logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- Vendors CSS -->
+        <link rel="stylesheet" href="assets/vendors/css/normalize.css">
+        <link rel="stylesheet" href="assets/vendors/css/grid.css">
+        <link rel="stylesheet" href="assets/vendors/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/vendors/css/owl.theme.default.min.css">
+        <!-- Resource CSS-->
+        <link rel="stylesheet" href="assets/resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/resources/css/style.css">
+        <link rel="stylesheet" href="assets/resources/css/responsive.css">
+        <title>Bangladesh Secretariate Clinic</title>
+        <style>
+            .contact_address_heaing h2{
+                text-align: center;
+                text-transform: capitalize;
+                font-weight: 600;
+                padding: 2rem 0;
+                position: relative;
+            }
+            .contact_address_heaing h2::after{
+                position: absolute;
+                display: block;
+                background: rgb(83, 77, 77);
+                content: "";
+                top: 82%;
+                left: 50%;
+                width: 103px;
+                height: 5px;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+            }
+            .contact_address{
+                background-color: #f3f3f3;
+                width: 90%;
+                margin: 30px auto;
+                color: #666666;
+                padding: 30px 0px 50px 50px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                text-transform: capitalize;
+            }
+            .contact_address_content h2{
+                padding-bottom: 20px;
+                font-size: 25px;
+                font-weight: 10px;
+            }
+            .contact_address_content p i{
+                
+                font-size: 20px;
+                width: 50px;
+                height: 50px;
+                background-color: #666666;
+                color: white;
+                border: 2px solid #666666;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 60px;
+                margin-right: 10px;
+            }
+            .contact_address_content{
+                flex-basis: 50%;
+                margin: 40px auto;
+            }
+            .contact-form {
+                padding: 0px 20px;
+            }
+            .contact-form .contact-title h2 {
+                font-size: 24px;
+                font-weight: 700;
+                color: #253237;
+                line-height: 1;
+                margin-bottom: 36px;
+                margin-left: -10px;
+            }
+            .contact-form .contact-form-style input, .contact-form .contact-form-style textarea {
+                background: transparent;
+                border: 1px solid #c1c1c1;
+                height: 40px;
+                padding: 2px 14px;
+                margin-bottom: 30px;
+                color: #000;
+                width: 100%;
+                outline: none;
+            }
+            .contact-form p {
+                color: #333;
+            }
+            .contact-form .contact-form-style textarea {
+                padding: 20px 14px;
+                margin-bottom: 0;
+                height: 200px;
+            }
+            .contact-map {
+                margin-bottom: 60px;
+            }
+            .contact-form button {
+                border: none;
+                background-color: #4fb68d;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 1;
+                padding: 15px 52px;
+                margin-top: 33px;
+                outline: none;
+                -webkit-transition: all .3s ease 0s;
+                -o-transition: all .3s ease 0s;
+                transition: all .3s ease 0s;
+                border-radius: 30px;
+            }
+            .contact-form button:hover {
+                background-color: #253237;
+                color: #fff;
+            }
+            /* Contact Social link */
+            .contact_siocial_link{
+                position: fixed;
+                top: 30%;
+                left: 2px;
+                z-index: 99;
+
+            }
+            .contact_siocial_link ul li{
+                margin: 10px;
+            }
+            .contact_siocial_link ul li a{
+                background-color: rgb(75, 72, 72);
+                color: white;
+                border-radius: 100%;
+                padding: 8px;
+
+
+            }
+
+            .contact_siocial_link ul li i{
+
+            color: white;
+            font-size: 15px;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 45px;
+            }
+
+            .contact_siocial_link ul li a:hover{
+            background-color: red;
+            }
+
+        </style>
+    </head> 
+    <body>
+        <section class="showcase">
+            <header>
+                <div class="logo">
+                    <a href="{{url('/')}}">
+                        <img src="assets/resources/img/all_logo/logo.png" alt="">
+                    </a>
+                </div>
+            </header>
+            <nav class="nav-menu">
+                <ul class="menu" id="menus">
+                    <li class="menu-item active"><a href="index.html">home</a></li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#">about</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="">sample 1</a></li>
+                                <li class="menu-item"><a href="">sample 2</a></li>
+                            </ul>
+                        </li> 
+                    <li class="menu-item"><a href="#">service</a></li>
+                    <li class="menu-item"><a href="#">gallery</a></li>
+                    <li class="menu-item"><a href="#" target="_blank">webmail</a></li>
+                    <li class="menu-item"><a href="contact.html" target="_blank">contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="abc fas fa-bars"></i>
+                </div>
+            </nav>
+        </section>
+    </section>
+
+    <div class="contact_siocial_link">
+        <ul>
+            <li><a  href=""><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href=""><i class="fa fa-twitter"></i></a></li>
+            <li><a class="twitter" href=""><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a class="youtube" href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a class="linkedin" href=""><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+        <section>
+            <div class="contact_address_heaing">
+                <ul>
+                    <h2>contact us</h2>
+                </ul>
+            </div>
+            <div class="form-area">
+                 
+                        <iframe width="100%" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=Bangladesh%20Secretariate%20Clinic&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://fmovies2.org"></a><br>
+                            <style>
+                            .mapouter{
+                                position:relative;
+                                text-align:right;
+
+                                max-width: 100%;
+                                margin: 40px auto;
+                    }
+                    </style>
+                            <a href="https://www.embedgooglemap.net"></a>
+                            <style>
+                            .gmap_canvas {
+                                overflow:hidden;
+                                background:none!important;
+                                height:400px;
+                                width:999px;
+                            }
+                            </style>
+                        
+                    
+            </div>
+        </section>
+        <div class="contact_address">
+            <div class="contact_address_content">
+                <h2>Bangladesh Secretariate Clinic</h2>
+                <p><i class="fas fa-laptop-house"></i>Abdul Goni Rd, Dhaka-1000.</p>
+                <p><i class="fas fa-phone-volume"></i> Phone: 02 9511058</p>
+                <p><i class="far fa-envelope-open"></i>Email: info@secretariatclinic.gov.bd</p>
+            </div>
+            <div class="contact_address_content">
+                <div class="contact-form">
+                    <form class="form-right-side">
+                        <div class="form-area">
+                           <label for="">your name (required)</label> <br>
+                           <input type="text" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-area">
+                           <label for="">your Email (required)</label> <br>
+                           <input type="email" placeholder="Enter Your Email">
+                        </div>
+                        <div class="form-area">
+                           <label for="">subject</label> <br>
+                           <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-area">
+                           <label for="">your message</label> <br>
+                          <textarea name="" class="form-control" placeholder="Enter your message here" cols="0" rows="20"></textarea>
+                          <button style="display: block;">send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer_section">
+            <div class="footer_item">
+                <img src="assets/resources/img/all_logo/logo.png" alt="" width="180px">
+                <div class="footer_item_address">
+                    <h3 style="font-size: 15px;">Bangladesh Secretariate Clinic</h3>
+                    <p>Abdul Goni Rd, Dhaka-1000.</p>
+                    <p> Phone: 02 9511058</p>
+                    <p>Email: info@secretariatclinic.gov.bd</p>
+                </div>
+                <div class="footer_social_link">
+                    <ul>
+                        <li><a  href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="twitter" href=""><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a class="youtube" href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href=""><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_item">
+                <h2>MOHFW Wings</h2>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i><a href="">Directorate General of Health service</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">Directorate General of Family Planing</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">Directorate General of Nursing & Midwifery(DGNM)</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">bureau of health education</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">institute of public health</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">institute of public health nutrition</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">national institute of preventive & social medicine (NIPSOM)</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">essential drug company ltd.</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">health engineering department(HED)</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">health economic unit(HEU)</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">national institute of population research and training (NIPORT)</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">community based health care (CBHC)</a></li>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h2>Ministries and Divisions</h2>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i><a href="">president's office</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">prime minister's office</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">cabinet division</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of health and family welfare</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of public administration</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of foreign affairs</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of education</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of food</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of science and technology</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of social walfare</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of information</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of home affairs</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of finance</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of civil aviation</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of libaration war affairs</a></li>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h2 style="color: rgb(75, 72, 72);">/</h2>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of defence</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">prime minister's office</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">cabinet division</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of family and health welfare</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of public administration</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of education</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of food</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of science and technology</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of information</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of home affairs</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of finance</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of civil aviation</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="">ministry of libaration war affairs</a></li>
+                </ul>
+            </div>
+    </footer>
+    <div class="footer_bottom">
+        <p>Copyright &copy; 2021 <b><a href="">Bangladesh Secretariate Clinic </a></b>| Developed by <a href="">Crystal Technology Bangladesh Ltd.</a></p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+            <!-- JS FILES -->
+    <script src="assets/resources/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/resources/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> -->
+    <script src="assets/vendors/js/popper.js"></script>
+    <script src="assets/vendors/js/html5shiv.min.js"></script>
+    <script src="assets/vendors/js/respond.min.js"></script>
+    <script src="assets/vendors/js/selectivizr.js"></script>
+    <script src="assets/vendors/js/fontawesome.js"></script>
+    <script src="assets/vendors/js/owl.carousel.min.js"></script>
+    <script src="assets/resources/js/main.js"></script>
+    </body>
+</html>
